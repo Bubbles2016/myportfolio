@@ -272,7 +272,7 @@ footer span a:hover {
 	}
 
 	.nameOnMobile span {
-		display: block !important;
+		display: inline-block !important;
 		font-size: 1.3em;
 	}
 }
@@ -320,9 +320,21 @@ footer span a:hover {
 	.my-pic img {
 		width: 103px;
 	}
+
+	.nameOnMobile span {
+		font-size: 1.2em;
+	}
 }
 
 @media (max-width: 320px) {
+	.nameOnMobile span {
+		font-size: 1em;
+	}
+
+	.logo {
+		width: 60px;
+	}
+
 	#slider {
 		height: 100px;
 	}
