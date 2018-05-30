@@ -1,6 +1,6 @@
 /* top-header*/
 .name-nav {
-	padding: 25px 5px; 
+	padding: 0 5px; 
 	background: white;
 }
 
@@ -12,6 +12,7 @@ nav a {
 	color: black; 
 	margin-right: 10px; 
 	display: inline-block;
+	text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
 }
 
 nav a:hover {
@@ -112,6 +113,10 @@ nav a:hover {
 #about, #samples, #bottom-nav {
 	position: relative; 
 	top: 50px;
+}
+
+.addMargin {
+	margin-right: 60px;
 }
 
 /*samples*/
